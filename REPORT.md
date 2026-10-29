@@ -251,7 +251,7 @@ flowchart LR
         end
         subgraph A["Асинхронний шлях: клієнт не чекає"]
             direction TB
-            Outbox[("Outbox")]
+            Outbox["Outbox"]
             Worker["Notifications worker"]
         end
         Reporting
